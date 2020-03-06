@@ -17,7 +17,7 @@ AAAAABB
 CCCCCCCCC
 DD<Ctrl+D>
 ```
-Note that you press the &lt;Ctrl+D> key combination to end input.
+Note that you press the `<Ctrl+D>` key combination to end input.
 
 Output scales itself horizontally to terminal width, and vertically to half
 terminal height.
@@ -28,4 +28,4 @@ terminal height.
 * Binary data won't work extremely well, due to Bash's inability to hold a null
   byte in a string
 * The EOT character (0x04) is used to indicate end-of-data, as this allows the
-  &lt;Ctrl+D> combination to terminate manual input
+  `<Ctrl+D>` combination to terminate manual input
