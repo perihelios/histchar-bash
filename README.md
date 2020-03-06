@@ -27,5 +27,5 @@ terminal height.
 * Whitespace characters are always ignored
 * Binary data won't work extremely well, due to Bash's inability to hold a null
   byte in a string
-* The EOT character (0x04) is used to indicate end-of-data, as this allows the
+* The EOT character (`0x04`) is used to indicate end-of-data, as this allows the
   `<Ctrl+D>` combination to terminate manual input
